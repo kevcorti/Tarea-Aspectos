@@ -20,6 +20,5 @@ public class Editor {
         } else {
             throw new Exception("Please open a file first.");
         }
-    }	
-
+    }
 }
