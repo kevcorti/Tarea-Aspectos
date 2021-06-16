@@ -1,6 +1,6 @@
 package Listener;
 import java.io.File;
-public class LogOpenListener implements EventListener{
+public class LogOpenListener implements EventListener{ //Accion a realizar
 	private File log;  
 	public LogOpenListener(String fileName) {
         this.log = new File(fileName);

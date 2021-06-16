@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Users\steve\Desktop\ESPOL\5S\DISEÑO DE SOFTWARE\Tarea2KevinRep\Tarea-Aspectos\.metadata\.plugins\org.eclipse.jdt.core
+1806985662.index
+59115922.index
+2074554321.index
+3098693115.index
+89453571.index

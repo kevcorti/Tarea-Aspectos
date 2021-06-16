@@ -2,7 +2,7 @@ package Listener;
 
 import java.io.File;
 
-public class EmailNotificationListener implements EventListener {
+public class EmailNotificationListener implements EventListener { //Sujeto observable
 	private String email;
 
     public EmailNotificationListener(String email) {
