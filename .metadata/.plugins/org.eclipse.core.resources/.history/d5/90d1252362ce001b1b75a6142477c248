@@ -1,10 +1,8 @@
 package tareaaspectos;
-import Editor.Editor;
-
+1import Editor.Editor;
 import Listener.EmailNotificationListener;
 import Listener.LogOpenListener;
 import Ventana_Parte2.Ventana;
-import java.util.scanner;
 
 public class TareaAspectos {
     public static void main(String[] args) {
@@ -24,21 +22,20 @@ public class TareaAspectos {
     //la separación de requerimientos (core y cross cutting concerns), agregue la descripción de 
     //dicha funcionalidad en el archivo README.md de su repositorio.
     
-	 public void updateFile() {   
-	    String palabra;     
-	    Scanner sc = new Scanner(System.in);
-	
-	    do {
-	
-	        System.out.print("Introduce una palabra (SALIR para salir): ");
-	        palabra = sc.nextLine();
-	
-	        EscribirFichero(palabra);
-	
-	    }while(!palabra.equals("SALIR"));
-	
-	    System.out.println("Fichero creado");
-	    sc.close();
-	 }
+    String palabra;     
+    Scanner sc = new Scanner(System.in);
+
+    do {
+
+        System.out.print("Introduce una palabra (SALIR para salir): ");
+        palabra = sc.nextLine();
+
+        EscribirFichero(palabra);
+
+    }while(!palabra.equals("SALIR"));
+
+    System.out.println("Fichero creado");
+    sc.close();
+    
    
 }
