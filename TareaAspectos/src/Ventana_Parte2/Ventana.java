@@ -89,15 +89,22 @@ public class Ventana extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-    jPanel1.setBackground(Color.RED);        // TODO add your handling code here:
+    jPanel1.setBackground(Color.RED); 
+    System.out.println("Rojo");
+    // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-    jPanel1.setBackground(Color.BLACK); // TODO add your handling code here:
+    jPanel1.setBackground(Color.BLACK);
+    System.out.println("Negro");
+// TODO add your handling code here:
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-      jPanel1.setBackground(Color.BLUE);   // TODO add your handling code here:
+      jPanel1.setBackground(Color.BLUE); 
+      System.out.println("Azul");
+      
+// TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
