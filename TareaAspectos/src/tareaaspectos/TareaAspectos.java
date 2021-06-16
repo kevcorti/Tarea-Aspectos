@@ -7,6 +7,7 @@ package tareaaspectos;
 import Editor.Editor;
 import Listener.EmailNotificationListener;
 import Listener.LogOpenListener;
+import Ventana_Parte2.Ventana;
 
 
 
@@ -24,7 +25,8 @@ public class TareaAspectos {
         } catch (Exception e) {
             e.printStackTrace();
         }
-  
+    Ventana.main(args);
     }
     
+   
 }
